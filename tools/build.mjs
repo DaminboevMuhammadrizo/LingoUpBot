@@ -209,6 +209,7 @@ const html = readFileSync(resolve(SRC, 'index.html'), 'utf8')
 writeFileSync(resolve(OUT, 'index.html'), html);
 
 copyFileSync(resolve(SRC, 'favicon.svg'), resolve(OUT, 'favicon.svg'));
+copyFileSync(resolve(SRC, 'privacy.html'), resolve(OUT, 'privacy.html'));
 cpSync(resolve(SRC, 'icons'), resolve(OUT, 'icons'), { recursive: true });
 const shell = ['./', 'favicon.svg', 'icons/icon-192.png', ...Object.values(chunkFiles)];
 const version = hash(html + Object.values(chunkFiles).join() + indexBody);

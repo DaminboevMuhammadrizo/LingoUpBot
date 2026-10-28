@@ -63,6 +63,7 @@ function loadPinned() {
   add('/', resolve(PUB, 'index.html'), 'no-cache');
   add('/sw.js', resolve(PUB, 'sw.js'), 'no-cache');
   add('/favicon.svg', resolve(PUB, 'favicon.svg'), 'public, max-age=604800');
+  add('/privacy', resolve(PUB, 'privacy.html'), 'public, max-age=3600');
   for (const dir of ['c', 'icons'])
     if (existsSync(resolve(PUB, dir)))
       for (const n of readdirSync(resolve(PUB, dir))) add(`/${dir}/${n}`, resolve(PUB, dir, n), dir === 'c' ? YEAR : 'public, max-age=604800');

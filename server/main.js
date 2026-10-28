@@ -11,11 +11,21 @@ const log = (...a) => console.log(new Date().toISOString(), ...a);
 await initDb();
 rebuildIndex();
 await startHttp({ campaign: () => ({ collected: collected(), bot: env.botUsername || null }) });
-if (env.token) {
-  await startBot({ onCampaignChange: refreshInit, stats });
-  // pictures to Telegram (file_id); once done, they are served from there
-  setTimeout(() => void syncMedia().catch((e) => log('media sync:', e.message)), 5_000);
-} else log('BOT_TOKEN is not set: running the web server only');
+// The bot starts in the background and retries while Telegram is unreachable: the Mini App keeps
+// being served in the meantime instead of the whole process going down.
+async function bootBot(attempt = 1) {
+  try {
+    await startBot({ onCampaignChange: refreshInit, stats });
+    // pictures to Telegram (file_id); once done, they are served from there
+    setTimeout(() => void syncMedia().catch((e) => log('media sync:', e.message)), 5_000);
+  } catch (e) {
+    const wait = Math.min(60, 5 * attempt);
+    log(`bot start failed (${e.message}), retrying in ${wait} s; the web app keeps running`);
+    setTimeout(() => void bootBot(attempt + 1), wait * 1000);
+  }
+}
+if (env.token) void bootBot();
+else log('BOT_TOKEN is not set: running the web server only');
 
 // pm2 sends SIGINT on stop/reload: save the database and its Telegram copy first
 let stopping = false;
