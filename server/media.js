@@ -35,6 +35,9 @@ export async function syncMedia() {
       touch();
     } catch (e) {
       log('upload failed:', e.message);
+      // the channel itself is unreachable: retrying the other groups would fail the same way
+      if (/chat not found|forbidden|not enough rights|bot is not a member/i.test(e.message))
+        return log('stopped: add the bot to STORAGE_CHAT_ID as an admin, then `pm2 restart lingoup` (pictures are served from public/img meanwhile)');
     }
     await sleep(3500); // channels allow ~20 messages a minute
   }

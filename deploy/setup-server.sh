@@ -7,6 +7,8 @@ set -euo pipefail
 : "${DOMAIN:?set DOMAIN=your domain}"
 APP_DIR="${APP_DIR:-/var/www/bot/lingoup}"
 APP_USER="${APP_USER:-lingoup}"
+# no interactive apt dialogs ("Daemons using outdated libraries" etc.): restart what needs it, keep going
+export DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a
 
 apt-get update -y
 apt-get install -y curl git nginx ca-certificates
