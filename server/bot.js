@@ -194,6 +194,15 @@ async function onMessage(m) {
     }
     if (command === '/broadcast') return broadcast(u, m);
     if (command === '/cache') return send(u.id, `<pre>${esc(JSON.stringify(hooks.stats(), null, 1))}</pre>`);
+    // a post forwarded from a channel or group: tell its id (for STORAGE_CHAT_ID / ADMIN_CHAT_ID)
+    const origin = m.forward_origin?.chat || m.forward_from_chat;
+    if (origin) {
+      const access = await api('getChat', { chat_id: origin.id }).then(
+        () => '✅ bot bu chatni ko\'ra oladi',
+        () => "❌ bot bu chatni ko'ra olmaydi — botni u yerga admin qilib qo'shing",
+      );
+      return send(u.id, `🆔 <b>${esc(origin.title || '')}</b>\n<code>${origin.id}</code> (${origin.type})\n${access}\n\n.env: <code>STORAGE_CHAT_ID=${origin.id}</code>`);
+    }
   }
 
   // ---- registration: phone number first
