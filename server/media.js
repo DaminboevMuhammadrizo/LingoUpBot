@@ -23,26 +23,40 @@ export async function syncMedia() {
     .filter((f) => db.files[f.name]?.h !== sha(f.data));
   if (!todo.length) return log(`all ${Object.keys(db.files).length} pictures are in Telegram`);
   log(`uploading ${todo.length} pictures to Telegram...`);
+  // Telegram must keep the bytes as a plain file: a ".webp" name would turn it into a sticker (and
+  // stickers cannot be in an album), ".avif" into a photo. The real name is kept in db.files.
+  const asFile = (f) => ({ name: `${f.name}.bin`, data: f.data, type: 'application/octet-stream' });
+  const remember = (f, m) => (db.files[f.name] = { id: m.document.file_id, h: sha(f.data), size: f.data.length });
+  const fatal = (e) => /chat not found|forbidden|not enough rights|bot is not a member/i.test(e.message);
+  let done = 0;
   for (let i = 0; i < todo.length; i += 10) {
     const group = todo.slice(i, i + 10);
-    const files = Object.fromEntries(group.map((f, k) => [`f${k}`, { name: f.name, data: f.data, type: 'application/octet-stream' }]));
     try {
+      const files = Object.fromEntries(group.map((f, k) => [`f${k}`, asFile(f)]));
       const media = group.map((f, k) => ({ type: 'document', media: `attach://f${k}`, ...(k === 0 ? { caption: `🖼 ${group.map((g) => g.name).join(' ')}` } : {}) }));
-      const msgs = group.length === 1
-        ? [await api('sendDocument', { chat_id: env.storageChat, document: 'attach://f0', disable_notification: true }, files)]
-        : await api('sendMediaGroup', { chat_id: env.storageChat, media, disable_notification: true }, files);
-      msgs.forEach((m, k) => (db.files[group[k].name] = { id: m.document.file_id, h: sha(group[k].data), size: group[k].data.length }));
-      touch();
+      const msgs = await api('sendMediaGroup', { chat_id: env.storageChat, media, disable_notification: true }, files);
+      msgs.forEach((m, k) => remember(group[k], m));
+      done += group.length;
     } catch (e) {
-      log('upload failed:', e.message);
-      // the channel itself is unreachable: retrying the other groups would fail the same way
-      if (/chat not found|forbidden|not enough rights|bot is not a member/i.test(e.message))
-        return log('stopped: add the bot to STORAGE_CHAT_ID as an admin, then `pm2 restart lingoup` (pictures are served from public/img meanwhile)');
+      // the channel itself is unreachable: the other groups would fail the same way
+      if (fatal(e)) return log(`stopped (${e.message}): add the bot to STORAGE_CHAT_ID as an admin, then \`pm2 restart lingoup\` (pictures are served from public/img meanwhile)`);
+      log(`album failed (${e.message}), sending these ${group.length} one by one`);
+      for (const f of group) {
+        try {
+          remember(f, await api('sendDocument', { chat_id: env.storageChat, caption: `🖼 ${f.name}`, disable_notification: true }, { document: asFile(f) }));
+          done++;
+        } catch (e2) {
+          log(`upload of ${f.name} failed:`, e2.message);
+          if (fatal(e2)) return;
+        }
+        await sleep(3100);
+      }
     }
+    touch();
     await sleep(3500); // channels allow ~20 messages a minute
   }
   touch({ urgent: true });
-  log('pictures uploaded');
+  log(`pictures in Telegram: ${done}/${todo.length} uploaded now, ${Object.keys(db.files).length} in total`);
 }
 
 /** Bytes of a picture: Telegram (by file_id) first, local file as fallback. */
