@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # One-time server setup (Ubuntu/Debian, run as root):
-#   REPO=git@github.com:you/LingoUpBot.git DOMAIN=app.example.uz bash setup-server.sh
+#   REPO=git@github.com:you/LingoUpBot.git DOMAIN=lingoup.duckdns.org [DUCKDNS_TOKEN=...] bash setup-server.sh
 # Installs Node 20, pm2 (+ log rotation, boot start), nginx, swap; clones the project to /var/www/bot/lingoup.
 set -euo pipefail
 : "${REPO:?set REPO=git url}"
@@ -39,6 +39,21 @@ sed "s/__DOMAIN__/$DOMAIN/g" "$APP_DIR/deploy/nginx.conf" > /etc/nginx/sites-ava
 ln -sf /etc/nginx/sites-available/lingoup /etc/nginx/sites-enabled/lingoup
 rm -f /etc/nginx/sites-enabled/default
 nginx -t && systemctl reload nginx
+
+# DuckDNS (optional, DUCKDNS_TOKEN=... from duckdns.org): re-sends the server IP every day, so the name
+# keeps pointing here even if the provider changes the IP. Token stays in a root-only file.
+if [ -n "${DUCKDNS_TOKEN:-}" ] && [[ "$DOMAIN" == *.duckdns.org ]]; then
+  SUB="${DOMAIN%.duckdns.org}"
+  install -m 700 -d /etc/duckdns
+  printf '%s' "$DUCKDNS_TOKEN" > /etc/duckdns/token && chmod 600 /etc/duckdns/token
+  cat > /etc/cron.d/duckdns <<CRON
+# keep $DOMAIN pointing to this server (empty ip= means "the address this request comes from")
+17 4 * * * root curl -fsS "https://www.duckdns.org/update?domains=$SUB&token=\$(cat /etc/duckdns/token)&ip=" -o /var/log/duckdns.log
+@reboot root sleep 30 && curl -fsS "https://www.duckdns.org/update?domains=$SUB&token=\$(cat /etc/duckdns/token)&ip=" -o /var/log/duckdns.log
+CRON
+  chmod 644 /etc/cron.d/duckdns
+  curl -fsS "https://www.duckdns.org/update?domains=$SUB&token=$DUCKDNS_TOKEN&ip=" && echo "  <- DuckDNS update (OK = working)"
+fi
 
 echo
 echo "Next:"
