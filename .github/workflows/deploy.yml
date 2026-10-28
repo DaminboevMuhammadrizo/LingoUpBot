@@ -1,7 +1,8 @@
 # CI/CD: on every push to main — check the code and content, then log in to the server over SSH,
 # pull (or clone on the first run) and restart with pm2 (deploy/deploy.sh rolls back if unhealthy).
 # Repository secrets: SSH_HOST, SSH_USER, SSH_KEY (private key), SSH_PORT (optional),
-#                     REPO_URL (for the first clone). The app lives in /var/www/bot/lingoup on the server.
+#                     REPO_URL (optional: only for a private repo; by default this repo over https).
+#                     The app lives in /var/www/bot/lingoup on the server.
 name: Deploy
 on:
   push:
@@ -41,6 +42,6 @@ jobs:
                 sudo -n mkdir -p "$APP_DIR" && sudo -n chown -R "$(id -un):$(id -gn)" "$APP_DIR" || {
                   echo "cannot create $APP_DIR: $USER needs passwordless sudo (or run once: sudo mkdir -p $APP_DIR && sudo chown $USER $APP_DIR)"; exit 1; }
               fi
-              git clone --depth 1 "${{ secrets.REPO_URL }}" "$APP_DIR"
+              git clone --depth 1 "${{ secrets.REPO_URL || format('https://github.com/{0}.git', github.repository) }}" "$APP_DIR"
             fi
             bash "$APP_DIR/deploy/deploy.sh"

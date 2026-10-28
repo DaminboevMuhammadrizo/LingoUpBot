@@ -81,7 +81,7 @@ Cloudflare'da Cache Rule: `/img/*`, `/c/*`, `/api/flix/*` → "Eligible for cach
 2. SSH orqali serverga kiradi → (birinchi marta `git clone`) → `deploy/deploy.sh`:
    `git pull` → `pm2 startOrReload` → `/api/health` tekshiruvi → muvaffaqiyatsiz bo'lsa **avvalgi commit'ga qaytadi**.
 
-GitHub secrets: `SSH_HOST`, `SSH_USER`, `SSH_KEY`, ixtiyoriy `SSH_PORT`, `REPO_URL`. Loyiha serverda `/var/www/bot/lingoup` papkasida turadi.
+GitHub secrets: `SSH_HOST`, `SSH_USER`, `SSH_KEY`, ixtiyoriy `SSH_PORT` va `REPO_URL` (faqat repo yopiq bo'lsa; aks holda shu repo https orqali olinadi). Loyiha serverda `/var/www/bot/lingoup` papkasida turadi.
 Serverda repo'ni o'qish uchun deploy key qo'shing (GitHub → Settings → Deploy keys).
 
 ## Bot sozlash
