@@ -1,0 +1,20 @@
+{
+  "name": "lingoup-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LingoUp as a Telegram bot + Mini App: Flix stories, word translations and a test after every Flix",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/main.js",
+    "build": "node tools/build.mjs",
+    "check": "node tools/build.mjs --validate",
+    "import": "node tools/import-lingoup.mjs",
+    "pm2": "pm2 startOrReload ecosystem.config.cjs --update-env && pm2 save"
+  },
+  "devDependencies": {
+    "esbuild": "0.23.1"
+  }
+}

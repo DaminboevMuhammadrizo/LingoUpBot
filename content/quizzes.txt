@@ -1,0 +1,747 @@
+# Hand-written comprehension questions, one block per Flix (#<id>).
+# T|statement|1 or 0            true / false
+# M|question|correct|wrong|wrong[|wrong]   choose one (options are shuffled in the app)
+# I|sentence with ___|answer[/other accepted answer]   type the missing word
+# Vocabulary questions (meaning, spelling) are added automatically from the Flix glossary.
+
+#1
+T|The professor first filled the jar with large rocks.|1
+T|Dilshod understood the lesson correctly the first time.|0
+M|What do the large rocks represent?|The most important things, like family and health|Your job, house and car|Your phone and idle chatter|Empty minutes
+M|What happened when the professor put water and sand in first?|The large rocks would not fit|The jar broke|The rocks fit easily|The water spilled on the floor
+I|There is always room for a cup of ___ with a friend.|tea
+
+#2
+T|King Mansur had many children.|0
+T|All the seeds the king gave had been boiled.|1
+M|Why did Sardor become the heir?|He was honest and brought an empty pot|He had the most beautiful flower|He was the son of a rich man|He bought the best seeds
+M|What did Sardor's mother think about the empty pot?|People would laugh at him|The king would be happy|He should buy a flower|He should plant it again
+I|Honesty with empty hands is worth more than fake ___.|wealth
+
+#3
+T|Behzod got into a fight with Jasur at school.|1
+T|The evil wolf has a quiet and calm voice.|0
+M|Which wolf wins the fight?|The one you feed|The stronger one|The older one|The evil one
+M|What did Behzod do the next morning?|He apologized to Jasur|He fought Jasur again|He stayed at home|He changed schools
+I|Grandfather Rustam said: "The one you ___."|feed
+
+#4
+T|Anvar carried two clay pots on a wooden pole.|1
+T|The perfect pot leaked water along the way.|0
+M|Why did flowers grow on one side of the path?|The cracked pot watered the seeds Anvar planted|It rained more on that side|The perfect pot spilled water|The neighbors planted them
+M|How long did Anvar carry water like this?|Two years|Two months|Five years|One week
+I|The cracked pot arrived only half ___.|full
+
+#5
+T|Karim's bamboo grew quickly in the first year.|0
+T|The bamboo was growing roots underground for five years.|1
+M|What did the neighbors say about Karim's seed?|That it was dead or a stone|That it was a magic seed|That it would grow fast|That they wanted to buy it
+M|How tall did the bamboo grow by the sixth week?|Thirty meters|Three meters|One hundred meters|As tall as a man
+I|Patience doesn't waste time. It ___ it.|builds
+
+#6
+T|The old man sold his horse to the king.|0
+T|The horse came back with twelve wild horses.|1
+M|Why didn't the soldiers take the old man's son to war?|His leg was broken|He was too young|He ran away|The king protected him
+M|What does the old man always say about events?|Nobody knows yet if it is good or bad|Everything is bad|Everything happens for money|The neighbors are always right
+I|Whether an event is good or bad, only ___ can show.|time
+
+#7
+T|The shoemaker sang every morning while he worked.|1
+T|The gold made the shoemaker happier.|0
+M|Why did the shoemaker return the gold?|He wanted his songs and his sleep back|Someone stole it|He bought a new house|The rich man asked for it
+M|Where did the shoemaker hide the gold?|Under his bed|In his shop|In the garden|In a bank
+I|Happiness is more valuable than ___.|money
+
+#8
+T|The boy reached the top of the mountain.|1
+T|The old man told the boy to look at the top of the mountain.|0
+M|What advice did the old man give?|Look at your feet and take one step at a time|Go home and rest|Find a shorter road|Climb at night
+M|How did the village look from high up?|Very small|Very big|Covered in snow|Empty
+I|Big goals become easy when you take small ___.|steps
+
+#9
+T|The grandmother was writing a letter.|1
+T|According to the grandmother, the pencil has three lessons.|0
+M|What does the pencil's eraser teach?|You can fix your mistakes|You must be sharp|You need a hand to guide you|The inside is important
+M|What does sharpening the pencil mean?|Difficult times make you stronger|You should write faster|You must buy new things|You should forget mistakes
+I|Everything you do leaves a ___ too.|mark
+
+#10
+T|The old man was planting apple trees.|1
+T|The young man laughed and walked away.|0
+M|Why does the old man plant trees he will never eat from?|For children who are not born yet|To sell the apples|Because the king ordered him|For his own garden
+M|What did the young man do at the end?|He took a shovel and began to help|He bought the field|He cut the trees|He planted his own garden
+I|Do good things for others, even if you will not see the ___.|result
+
+#11
+T|Mr. Ali gave the hungry boy bread and milk.|1
+T|The boy paid Mr. Ali with money.|0
+M|Who was the young man who came to Mr. Ali's door years later?|The poor boy, now a doctor|Mr. Ali's son|A new shopkeeper|A rich merchant
+M|What season was it when the boy came to the shop?|Winter|Summer|Spring|Autumn
+I|Kindness always comes ___.|back
+
+#12
+T|The teacher stopped pouring tea when the cup was full.|0
+T|The young man later became a wise man.|1
+M|What is the young man compared to?|A full cup|An empty bowl|A teapot|A table
+M|What must you do first if you want to learn?|Empty your cup|Drink more tea|Buy books|Talk more
+I|To learn something new, keep your mind ___.|open
+
+#13
+T|There were six blind men in the story.|1
+T|All the men touched the same part of the elephant.|0
+M|What did the man who held the trunk say?|It's like a snake|It's like a wall|It's like a rope|It's like a tree
+M|Who helped the men understand?|A wise woman|The elephant's owner|A little boy|The king
+I|Everyone sees only a part of the ___.|truth
+
+#14
+T|The wind made the man take off his coat.|0
+T|The man wore a thick coat.|1
+M|What did the man do when the wind blew harder?|He held his coat even tighter|He took off his coat|He ran home|He sat in the shade
+M|How did the sun win?|It shone warm and bright|It blew very hard|It made it rain|It hid behind clouds
+I|Kindness works better than ___.|force
+
+#15
+T|The dog crossed a small bridge over a river.|1
+T|There really was a second dog in the water.|0
+M|What did the dog see in the water?|His own reflection|A fish|Another dog's house|A bigger bone
+M|Why did the dog lose his meat?|He opened his mouth to bark|Another dog stole it|He gave it away|He ate it too fast
+I|Be happy with what you ___.|have
+
+#16
+T|The two frogs fell into a bucket of milk.|1
+T|Both frogs got out of the bucket.|0
+M|How did the second frog escape?|The milk turned into butter and he jumped out|Someone took him out|He climbed the wall|He broke the bucket
+M|What did the first frog do?|He stopped swimming and sank|He found a ladder|He called for help|He drank the milk
+I|Never give ___, even when things look hopeless.|up
+
+#17
+T|The crow broke the pitcher to get the water.|0
+T|The story happens in a very hot summer.|1
+M|How did the crow make the water go up?|She dropped stones into the pitcher|She pushed the pitcher over|She added more water|She used a straw
+M|Where was the water inside the pitcher?|At the bottom|At the top|There was no water|In the middle
+I|When you think carefully, you can solve any ___.|problem
+
+#18
+T|The farmer had three sons.|1
+T|The oldest son broke the bundle of sticks.|0
+M|What did the farmer want to teach his sons?|They are stronger together|How to collect sticks|How to make a fire|Who is the strongest son
+M|What happened when each son had one stick?|Each one broke his stick easily|Nobody could break them|They threw them away|They built a house
+I|We are stronger ___.|together
+
+#19
+T|A big storm left thousands of starfish on the sand.|1
+T|The girl stopped because the man said it doesn't matter.|0
+M|What did the girl answer the man?|It matters to this one|You are right, I will stop|I want to sell them|They are my pets
+M|What happened at the end of the day?|Thousands of starfish were back in the sea|The girl went home sad|The man left the beach|The storm came back
+I|You cannot help everyone, but you can help ___.|someone
+
+#20
+T|The villagers gave the traveler food right away.|0
+T|The traveler put a stone in a pot of water.|1
+M|What did the woman bring first?|Salt|Carrots|Meat|Potatoes
+M|What did the villagers learn?|When we share, everyone has enough|Stones are delicious|Travelers are dangerous|Soup needs only water
+I|When people share, there is ___ for everybody.|enough
+
+#21
+T|The grapes were hanging from a high branch.|1
+T|The fox finally ate the grapes.|0
+M|What did the fox say when he could not reach the grapes?|They are probably sour anyway|They are too sweet|I will come back tomorrow|The bird took them
+M|Who saw everything and laughed?|A little bird|A rabbit|The farmer|Another fox
+I|Some people say bad things about what they cannot ___.|have
+
+#22
+T|The goose laid a golden egg every day.|1
+T|The farmer found many golden eggs inside the goose.|0
+M|Why did the farmer cut open the goose?|He was greedy and wanted all the eggs at once|The goose was sick|He was hungry|A neighbor told him to
+M|What happened to the farmer at the end?|He became poor again|He became richer|He bought a new goose|He found more gold
+I|Don't be ___. If you want everything at once, you can lose everything.|greedy
+
+#23
+T|The grasshopper worked hard all summer.|0
+T|The ant helped the grasshopper in winter.|1
+M|What was the ant carrying?|A big piece of corn|A leaf|Some water|A small stone
+M|What did the ant say at the door?|I will help you this time, but next summer please prepare|Go away|You must pay me|Sing me a song first
+I|Work today, and tomorrow will be ___.|easier
+
+#24
+T|The mouse ran over the lion's nose.|1
+T|The lion ate the mouse.|0
+M|How did the mouse help the lion?|He cut the ropes of the net with his teeth|He called the other animals|He fought the hunters|He brought food
+M|Who caught the lion?|Hunters with a strong net|Another lion|The mouse|A farmer
+I|Nobody is too ___ to help.|small
+
+#25
+T|The hare slept under a tree during the race.|1
+T|The hare won the race.|0
+M|Why did the tortoise win?|He never stopped|He was faster|He took a shortcut|The hare was sick
+M|What did the hare say at the end?|You are slow, but you never stopped|Let's race again tomorrow|I was not tired|The race was unfair
+I|Slow and ___ wins the race.|steady
+
+#26
+T|The boy was bored looking after the sheep.|1
+T|The villagers came the third time the boy shouted.|0
+M|Why did nobody come when the real wolf came?|They thought he was joking again|They were asleep|They did not hear him|They were afraid of the wolf
+M|What did the villagers carry up the hill?|Sticks|Guns|Food|Ropes
+I|If you lie, people will not ___ you, even when you tell the truth.|trust
+
+#27
+T|Sam's grandfather gave him an old backpack.|1
+T|The backpack was really magic.|0
+M|Which of these was one of the three rules?|Go to bed early|Eat more vegetables|Wake up at five|Run every morning
+M|Where was the real magic?|In Sam and his good habit|In the backpack|In the list|In the teacher
+I|Small good ___ can change your life.|habits
+
+#28
+T|The girl was selling flowers in the king's garden.|1
+T|The girl asked the king for gold.|0
+M|How many stars are in the sky, according to the girl?|As many as the hairs on the king's head|Exactly one thousand|Nobody knows|More than the sand in the sea
+M|What did the girl become many years later?|A wise advisor to the king|A queen|A flower seller|A teacher in her village
+I|Knowledge is more valuable than ___.|gold
+
+#29
+T|The fisherman had already caught enough fish for his family.|1
+T|The businessman had a good answer at the end.|0
+M|What did the businessman suggest?|Fish more, buy more boats and start a company|Stop fishing forever|Move to the city|Sell his boat
+M|What will the fisherman do after he becomes rich, according to the businessman?|Relax on the beach and play with his children|Work even harder|Buy a castle|Travel the world
+I|Don't wait for ___. It may be right in front of you.|happiness
+
+#30
+T|Ben's street was gray and had no trees.|1
+T|The neighbors helped Ben from the first day.|0
+M|Where did Ben find the seeds?|In his grandmother's kitchen|At school|In the park|In a shop
+M|What happened a year later?|The street was the most beautiful place in the city|Ben moved away|The flowers died|The neighbors cut the trees
+I|One small ___ can change a whole place.|action
+
+#31
+T|The man was sure his news about the friend was true.|0
+T|After that day, the man never gossiped again.|1
+M|Which is NOT one of the three questions?|Is it funny?|Is it true?|Is it good?|Is it useful?
+M|How did the man feel after the wise man's questions?|Ashamed|Proud|Angry|Excited
+I|He spoke only kind and ___ words.|useful
+
+#32
+T|On the first day, the boy hit thirty-seven nails into the fence.|1
+T|After the nails were pulled out, the fence looked like new.|0
+M|What did the father ask the boy to do when he lost his temper?|Hit one nail into the fence|Run around the house|Count to ten|Write a letter
+M|What do the holes in the fence show?|Angry words leave scars|The fence is old|The boy is strong|Nails are dangerous
+I|Angry words leave scars, so think before you ___.|speak
+
+#33
+T|The donkey carried bags of salt to the market.|1
+T|The cotton became light in the water.|0
+M|Why did the donkey fall into the river on purpose?|The salt melted and the bags became lighter|He was thirsty|He wanted to swim|He was afraid of the bridge
+M|What did the merchant put on the donkey to teach him a lesson?|Cotton|Stones|Sugar|Wood
+I|Tricks and ___ sometimes bring more trouble.|laziness
+
+#34
+T|The test had one hundred questions.|1
+T|Most students read all the questions before they started.|0
+M|What did the end of the page say?|Do not answer, just write your name and give it back|Answer all questions quickly|Ask your friend for help|Draw a picture
+M|What was the test really about?|Listening|Math|Speed|Spelling
+I|Listen carefully and read ___ before you act.|instructions
+
+#35
+T|Ravi visited the tree every day when he was a teenager.|0
+T|At the end, only a small stump was left.|1
+M|What did Ravi make from the tree's trunk?|A boat|A house|A chair|A toy
+M|What did the tree give Ravi when he needed money?|Its mangoes|Its branches|Its trunk|Its leaves
+I|Parents give us everything with ___.|love
+
+#36
+T|One of the bird's wings was broken.|1
+T|Lily kept the bird in a cage forever.|0
+M|Who helped Lily tie the wing?|Her father|Her mother|A doctor|Her teacher
+M|What did the bird do the next morning after it flew away?|It sat on the fence and sang for her|It never came back|It built a nest in her room|It brought her a seed
+I|Love means setting someone ___.|free
+
+#37
+T|The crow found a big piece of cheese.|1
+T|The fox shared the cheese with the crow.|0
+M|How did the fox get the cheese?|He asked the crow to sing|He climbed the tree|He paid for it|He scared the crow
+M|What did the crow say at the end?|I listened to flattery|The fox is my friend|I will find more cheese|I sing beautifully
+I|Be careful of people who say too many ___ words.|sweet
+
+#38
+T|Anna sold her hair to buy a chain.|1
+T|Peter kept his silver watch.|0
+M|What did Peter buy for Anna?|A set of combs|A dress|A chain|A ring
+M|What did Peter and Anna do when they saw the gifts?|They laughed and hugged|They cried and argued|They returned the gifts|They went to the shop
+I|Love is the greatest ___.|gift
+
+#39
+T|The camel first asked to put only his nose inside.|1
+T|The man and the camel shared the tent at the end.|0
+M|What did the camel do at last?|He pushed the man out of the tent|He went to sleep outside|He left the tent|He thanked the man
+M|What does the man say he should have done?|Said no at the first step|Bought a bigger tent|Sold the camel|Slept outside
+I|If you allow a small thing, ___ things will follow.|bigger
+
+#40
+T|Midas wished that everything he touched would turn into gold.|1
+T|Midas was happy with his power until the end.|0
+M|What happened when his daughter hugged him?|She became a golden statue|She became a princess|She cried|She ran away
+M|How did the god take the power back?|He washed Midas's hands in a river|He broke Midas's crown|He took all the gold|He gave Midas a new wish
+I|Love and family are worth more than ___.|gold
+
+#41
+T|The miller and his son were going to sell their donkey.|1
+T|At the end, the miller sold the donkey for a good price.|0
+M|Why did the miller keep changing what they did?|He tried to please everyone|The donkey was tired|His son was sick|The road was long
+M|What happened on the bridge?|The donkey kicked and fell into the river|The donkey ran to the market|The son fell into the water|The bridge broke
+I|You cannot ___ everyone.|please
+
+#42
+T|Tom was a ten-year-old boy.|1
+T|Tom took the reward from Mr. Brown.|0
+M|What was inside the wallet besides money?|A card with a name and address|A photo of a dog|A key|A bus ticket
+M|What did Tom first want to buy with the money?|A new bicycle|A new phone|Some sweets|Shoes
+I|Doing the right ___ makes you feel good.|thing
+
+#43
+T|The town mouse invited his cousin to the city.|1
+T|The country mouse decided to stay in the city.|0
+M|Why did the country mouse go home?|He was afraid all the time|He didn't like the food|He missed his family|The town mouse was rude
+M|What ran into the room first?|A big cat|A dog|A man|A rat
+I|A simple, peaceful life is better than a rich life full of ___.|fear
+
+#44
+T|The woodcutter's axe was made of iron.|1
+T|The woodcutter said the golden axe was his.|0
+M|What did the spirit give the woodcutter at the end?|All three axes|Only the golden axe|A bag of gold|A new house
+M|Where did the axe fall?|Into a deep river|Into a hole|Off a mountain|Into the fire
+I|Honesty is always ___.|rewarded
+
+#45
+T|Rosa carried a bucket of milk on her head.|1
+T|Rosa bought a new dress that day.|0
+M|Why did the milk spill?|She turned her head proudly|She tripped on a stone|A dog pushed her|The bucket was broken
+M|What did Rosa buy the next day?|A small chicken|Some eggs|A dress|A new bucket
+I|Don't count your ___ before they hatch.|chickens
+
+#46
+T|The farmer's sons were lazy.|1
+T|The sons found gold in the vineyard.|0
+M|What was the real treasure?|Hard work and the better harvest|Gold under the ground|A secret box|Silver coins
+M|Why did the grapes grow bigger and sweeter?|The soil was soft and deep after digging|It rained a lot|They used new seeds|The father planted them
+I|Hard work is the best ___.|treasure
+
+#47
+T|Sara had worked twelve hours that day.|1
+T|Many people stood up to give the old woman a seat.|0
+M|Why was the old woman shopping all day?|For her sick husband|For a party|For her grandchildren|For her shop
+M|How did Sara feel after giving her seat?|Light and happy|Very tired and angry|Sad|Hungry
+I|Small kindnesses give us more ___ than a seat ever could.|energy
+
+#48
+T|The violinist was one of the greatest musicians in the world.|1
+T|Hundreds of people stopped to listen to him.|0
+M|Who organised the experiment?|A newspaper|The subway company|The musician's teacher|A university
+M|How much money did the violinist earn?|About thirty-two dollars|Hundreds of dollars|Nothing|A million dollars
+I|Beauty and wonder are everywhere, but we have to slow ___ to see them.|down
+
+#49
+T|There was no rain for six months.|1
+T|The rain maker had real magic powers.|0
+M|What did the rain maker need?|Complete silence and one week|A lot of money|Many helpers|A big fire
+M|What was his real secret?|He calmed himself and waited for the weather to change|He used special chemicals|He prayed loudly|He brought water from the city
+I|Patience and ___ can solve many problems that fear and panic cannot.|calm
+
+#50
+T|Max the parrot repeated everything he heard.|1
+T|Mr. Gray punished the parrot and sold him.|0
+M|Whose fault was the problem, according to Mr. Gray?|His own|The parrot's|Mrs. Brown's|The postman's
+M|What did Max say at the end?|Mrs. Brown is a wonderful cook!|Mrs. Brown is boring!|I hate dogs!|Hello, policeman!
+I|What we say will come ___ to us.|back
+
+#51
+T|Mr. Carlo opened his bakery at four o'clock in the morning.|1
+T|Peter paid Mr. Carlo back with money.|0
+M|What did Mr. Carlo ask Peter to do instead of paying?|Share something with somebody else|Work in the bakery|Bring flowers|Study hard
+M|What sign did Peter put next to the bread basket?|Take one. Share one.|Free bread today|Thank you, Mr. Carlo|Closed on Sundays
+I|Small acts of ___ can grow into something wonderful.|generosity
+
+#52
+T|Julia moved to another country when Anna was seventeen.|1
+T|Julia never wrote to Anna.|0
+M|Who had hidden Julia's letters?|Anna's mother|Anna's husband|The postman|Julia's sister
+M|How many letters did Anna find in the box?|Twelve|Three|Twenty|One
+I|It's never too late to ___ a friendship.|repair
+
+#53
+T|Tom thought making nails was boring.|1
+T|The soldier arrived too late to save the king.|0
+M|What did the soldier need?|A new horseshoe|A sword|A new horse|Armour
+M|What did making nails teach Tom?|To work fast and well|To make swords|To ride horses|To talk to soldiers
+I|Small tasks prepare you for big ___.|moments
+
+#54
+T|Leo wanted to go back down the mountain.|1
+T|The woman said the top was about ten minutes away.|0
+M|What was the woman's advice?|Think about the next hundred steps|Go back home|Run to the top|Take a different path
+M|When did the friends reach the summit?|At sunset|At noon|In the morning|At midnight
+I|Big challenges become possible when you ___ them into small parts.|divide
+
+#55
+T|The old man's car had broken down.|1
+T|The Millers sent the old man away.|0
+M|Who was the old man?|The owner of a large company|A police officer|A thief|Mrs. Miller's father
+M|What did the Millers receive a week later?|A letter with a cheque|A new car|A visit from the police|A box of food
+I|Kindness to strangers is never a ___.|waste
+
+#56
+T|A storm destroyed the old wooden boat.|1
+T|Yusuf waited for the government to build the bridge.|0
+M|How many workers were there by the end of the week?|Fifty|Three|Ten|One hundred
+M|Why didn't they build the bridge before?|Nobody wanted to be the first|They had no wood|The river was too wide|The king did not allow it
+I|Someone has to take the first ___, and it can be you.|step
+
+#57
+T|The painter worked on the portrait for six months.|1
+T|Nobody liked the second painting.|0
+M|What did the second sign ask people to do?|Mark the parts they like with a green circle|Mark every mistake with a red cross|Buy the painting|Write their names
+M|What was surprising about the green circles?|People liked the same parts others had crossed out|There were no circles|Only the teacher drew them|They were red
+I|Opinions are different, so don't let ___ stop you.|criticism
+
+#58
+T|The old fisherman always fished near the rocks.|1
+T|The boy told him to stop fishing.|0
+M|Where did the other fishermen go?|To the north bay|To the river|Near the rocks|To another country
+M|What happened in the north bay?|His net was heavy and full of fish|His boat broke|He caught nothing|He met the boy's uncle
+I|If you want different results, try something ___.|different
+
+#59
+T|The king told the messenger to ride quickly.|1
+T|The messenger arrived at the city early.|0
+M|Why did the messenger stop on the fourth day?|To help a sick old man|To eat a meal|To rest in a garden|To join some travellers
+M|What did the letter say?|Choose the messenger who stops to help a stranger|The messenger must be fast|Send him back home|Give him gold
+I|Kindness is more important than ___.|speed
+
+#60
+T|Nora could fix most watches by the age of twelve.|1
+T|The problem was a broken spring.|0
+M|What was wrong with the golden clock?|A small piece of dust between two wheels|It had no battery|A wheel was missing|It was too old
+M|How much did the rich man pay at the end?|Double the price|Ten dollars|Nothing|Fifty dollars
+I|Ten dollars for removing the dust. Forty dollars for ___ where it was.|knowing
+
+#61
+T|The bell rang when the mayor built a new school.|0
+T|The old woman told nobody about the dog.|1
+M|What did the old woman do?|She took a shivering dog home and fed it|She gave money to the church|She built a school|She repaired the bell
+M|Did the old woman know the bell rang for her?|No, she never learned it|Yes, everybody told her|Yes, she rang it herself|She guessed it
+I|The best kind deeds are the ones we do without wanting any ___.|reward
+
+#62
+T|The village had only one well, and it was almost empty.|1
+T|Samir helped Daud dig from the first day.|0
+M|What did Samir want to do with the water?|Hide it in their house|Sell it|Share it with everyone|Give it to animals
+M|How long did Daud dig before he found water?|Three months|Three days|One year|One week
+I|When we work for everyone, everyone ___, including us.|benefits
+
+#63
+T|Mr. Hassan had been a tailor for fifty years.|1
+T|The inside of the suit was badly made.|0
+M|Why did Mr. Hassan make the inside perfect too?|A good tailor works for his own conscience|The customer asked for it|It was cheaper|He wanted to sell it for more
+M|Who took over the shop?|Omar, his apprentice|Mr. Hassan's son|A rich family|Nobody
+I|Do your best even when nobody is ___.|watching
+
+#64
+T|Both women said the baby was theirs.|1
+T|The judge really wanted to cut the baby in two.|0
+M|How did the judge know the real mother?|She would rather lose the baby than see him die|She cried louder|She had a witness|The baby smiled at her
+M|What did the judge ask his servant to bring?|A sword|A book|Some water|A guard
+I|True love thinks of the other ___ first.|person
+
+#65
+T|The master said it would take ten years to learn about tea.|1
+T|Working twice as hard would make it faster.|0
+M|What was Mei's only job in the first year?|Washing the cups|Making tea|Buying tea leaves|Cleaning the garden
+M|What was wrong with Mei's first cup of tea?|She was thinking about tomorrow|It was too cold|It had no sugar|The cup was dirty
+I|Be ___ in what you are doing right now.|present
+
+#66
+T|Kenji's grandmother gave him the blue bowl.|1
+T|Kenji threw the broken pieces away.|0
+M|How did the craftsman repair the bowl?|He joined the pieces with lines of gold|He glued it with simple glue|He bought a new bowl|He painted it blue
+M|Where did Kenji put the bowl at the end?|On the table in the middle of his room|In a box|In the kitchen cupboard|In the garden
+I|Our scars and mistakes can make us more ___, not less.|beautiful
+
+#67
+T|When he was young, the man wanted to change the world.|1
+T|He started by changing himself when he was young.|0
+M|Who did he finally start changing at seventy?|His own family|His country|His town|The world
+M|What would he do first if he could start again?|Begin with himself|Give more speeches|Move to another country|Become a journalist
+I|Change begins at ___, with ourselves.|home
+
+#68
+T|The mother boiled the three things for twenty minutes.|1
+T|The carrot became hard in the boiling water.|0
+M|What did the coffee beans do?|They changed the water itself|They became soft|They became hard|They disappeared
+M|What happened to the egg?|It became hard|It became soft|It broke|It turned brown
+I|You can't choose your difficulties, but you can choose how to ___ to them.|respond
+
+#69
+T|The eagle grew up with chickens.|1
+T|The eagle flew the first time the naturalist lifted him.|0
+M|Where did the eagle finally fly?|From the top of a mountain at sunrise|From the farmer's roof|From the chicken yard|From a tree
+M|Why did the eagle live like a chicken?|He believed he was one|He had a broken wing|The farmer tied him|He was afraid of the sky
+I|You may be ___ of much more than the people around you believe.|capable
+
+#70
+T|Adam sat in the last row and never spoke.|1
+T|Mrs. Lopez forced Adam to speak in class.|0
+M|How did Mrs. Lopez help Adam?|She wrote small encouraging comments on his homework|She gave him extra tests|She moved him to the first row|She called his parents
+M|What did the class discuss when Adam spoke clearly for the first time?|A difficult poem|A math problem|A history book|A science project
+I|Sometimes a small word of ___ can open a person's whole future.|encouragement
+
+#71
+T|The sculptor made a horse from the block of marble.|1
+T|The sculptor thinks art is mostly about adding.|0
+M|How did the sculptor make the horse?|He removed everything that wasn't a horse|He added clay to the marble|He bought it|He copied a painting
+M|When should the visitor come back?|In three months|In three days|In one year|Tomorrow
+I|Becoming your best self means ___ what doesn't belong to you.|removing
+
+#72
+T|The old man at the crossroads was selling water.|1
+T|The shortcut took the traveller only two days.|0
+M|How long did the whole journey take?|Nine days|Two days|Five days|Four days
+M|Who led the traveller out of the forest?|A hunter|The old man|A merchant|A soldier
+I|The easiest path is not always the ___ one.|fastest
+
+#73
+T|Paulo's first job was to pull out weeds.|1
+T|The weeds never came back after the first day.|0
+M|Why did the weeds grow back?|Paulo didn't pull out the roots|It rained too much|The gardener planted them|Paulo used bad tools
+M|What bad habit did Paulo have?|Staying up late|Eating too much|Being late for work|Talking too much
+I|To solve a problem for good, deal with its ___.|root
+
+#74
+T|The keeper climbed two hundred steps every evening.|1
+T|The keeper knew most of the people on the ships.|0
+M|Why is the keeper's job important?|Ships might hit the rocks without the light|He sells fish to sailors|He writes about ships|He catches thieves
+M|What did the sailor bring when he returned as a captain?|A new lamp|A boat|Some money|A dog
+I|Every night, I'm saving ___ I will never know.|lives
+
+#75
+T|There were fifty candidates waiting for the interview.|1
+T|Hannah was the most qualified person in the room.|0
+M|What did Hannah do with the paper on the floor?|She put it into a bin|She kicked it|She stepped over it|She gave it to the manager
+M|What can't the manager teach?|Someone to care|New skills|Computer work|Speaking English
+I|___ shows in the small things we do when we think no one is checking.|Character
+
+#76
+T|Rex was an old dog who slept most of the day.|1
+T|Buddy fought the fox alone.|0
+M|How did Buddy get into the forest?|Through a small hole in the fence|Over the gate|With the farmer|Through the house
+M|Where does wisdom come from, according to Rex?|From experience|From speed|From books|From young dogs
+I|Respect the ___ of older people.|experience
+
+#77
+T|Mr. Brown used a ruler that was slightly too short.|1
+T|Mr. White's shop closed after a year.|0
+M|How did people learn about Mr. Brown's trick?|A woman measured her cloth at home|Mr. White told everyone|The police checked|Mr. Brown admitted it
+M|Why did Mr. White become popular?|He was honest and fair|He had the lowest prices|He had a big shop|He gave away free cloth every day
+I|A good ___ is worth more than a quick profit.|reputation
+
+#78
+T|The boy was playing chess against his grandfather.|1
+T|The boy beat the chess master.|0
+M|What is the difference between a beginner and an expert, according to the master?|The number of games they have lost|Talent|Age|Money
+M|What did the boy win twelve years later?|A national championship|A school prize|A new chessboard|Nothing
+I|Failure is not the opposite of success, but a necessary ___ of it.|part
+
+#79
+T|Miss Harper had been the town librarian for forty years.|1
+T|Miss Harper was very angry with Felix.|0
+M|What was the book Felix borrowed about?|Astronomy|History|Cooking|Animals
+M|What is Felix's job today?|Head of a university library|Astronomer|Teacher|Coffee shop owner
+I|Return every book exactly as you ___ it.|found
+
+#80
+T|Daniel's friends ran away when the window broke.|1
+T|Mrs. Kelly called the police.|0
+M|How did Daniel pay for the window?|He worked for Mrs. Kelly every weekend|He gave her all his money|His parents paid|He bought new glass
+M|What did Mrs. Kelly do for Daniel later?|She baked him cakes and told stories|She gave him a football|She sent him away|She paid him money
+I|Admitting your mistakes takes ___.|courage
+
+#81
+T|The window and the mirror are both made of glass.|1
+T|The rich man saw beggars in the mirror.|0
+M|What is the only difference between a window and a mirror?|A thin layer of silver|The colour of the glass|The size|The frame
+M|What did the rich man do the next morning?|He talked to a beggar|He bought a new mirror|He left the city|He gave away his house
+I|Don't let wealth turn your window into a ___.|mirror
+
+#82
+T|The elephant was tied with only a thin rope.|1
+T|The elephant tries to escape every day.|0
+M|Why doesn't the elephant escape?|It believes the rope is still stronger than it|The rope is made of steel|It is very old|It loves the temple
+M|What did the tourist do that evening?|He wrote a list of things he gave up too early|He bought the elephant|He cut the rope|He left India
+I|Many of the limits in our lives exist only in our ___.|minds
+
+#83
+T|The emperor loved beautiful clothes more than anything else.|1
+T|The minister told the emperor he saw nothing.|0
+M|Who said the emperor wasn't wearing anything?|A small child|The minister|The weavers|The queen
+M|Why did the crowd cheer at first?|Nobody wanted to look stupid|The clothes were beautiful|The emperor gave them gold|They loved the emperor
+I|Don't be afraid to tell the ___, even when everybody else is pretending.|truth
+
+#84
+T|The carpenter used cheap wood for the last house.|1
+T|The carpenter knew the house was for him.|0
+M|Who was the last house for?|The carpenter himself|The boss's son|A rich family|The carpenter's grandchildren
+M|What did he tell young workers?|Treat every job as if it were your own house|Work as fast as possible|Use cheap materials|Retire early
+I|Our life is a house we build every day, so we should build it with ___.|care
+
+#85
+T|The salt water in the glass tasted disgusting.|1
+T|The lake water tasted very salty.|0
+M|What does the salt represent?|The pain and troubles in life|Money|Friends|Food
+M|What did the teacher advise?|Stop being a glass and become a lake|Never eat salt|Drink more water|Move to the lake
+I|You cannot avoid pain, but you can make your mind big enough to ___ it.|hold
+
+#86
+T|The professor asked if the glass was half full or half empty.|0
+T|The longer you hold the glass, the heavier it feels.|1
+M|What are worries like, according to the professor?|The glass of water|A heavy stone|A river|A long road
+M|What should you do before you go to sleep?|Put the glass down|Think about all your problems|Drink the water|Write a letter
+I|Deal with your worries, then put them ___.|down
+
+#87
+T|The plant was growing between two enormous rocks.|1
+T|The plant grew upward first.|0
+M|What did the root do for months?|Grew downward looking for deep water|Grew toward the sun|Stopped growing|Moved to another place
+M|What did the traveller decide?|Spend more time strengthening himself|Plant more seeds|Leave the desert at once|Become a nomad
+I|Build deep ___ before you reach for the sky.|roots
+
+#88
+T|The young man said terrible things about his friend.|1
+T|The young man collected all the feathers.|0
+M|What did the elder cut open?|A pillow|A bag of flour|A book|A coat
+M|What are words like, according to the elder?|Feathers in the wind|Stones in a river|Seeds in the ground|Birds in a cage
+I|Spoken words can never be fully taken ___.|back
+
+#89
+T|Idris asked questions constantly.|1
+T|Idris's grandmother told him questions are foolish.|0
+M|What did the grandmother give Idris?|A small notebook|A science book|A telescope|A pen
+M|What did Idris discover as a scientist?|Something about water purification|A new planet|A medicine|A new animal
+I|___ is the engine of every discovery.|Curiosity
+
+#90
+T|The violin maker was never satisfied with his violins.|1
+T|The young musician played a perfect, flawless melody.|0
+M|What had the violin maker missed while chasing perfection?|The joy of the music itself|Money|Fame|His family
+M|What was he known for in his final years?|Violins that made people cry with happiness|The most expensive violins|The fastest work|The perfect sound
+I|Perfection is a technical idea. Beauty is a ___ one.|human
+
+#91
+T|The teacher's house was nearly empty.|1
+T|The teacher told the judge the thief stole his coat.|0
+M|What did the teacher give the thief?|His coat|Some money|A book|Food
+M|What did the thief ask a few weeks later?|To become the teacher's student|For more money|For a job|For forgiveness from the judge
+I|Unexpected kindness can change a person more deeply than ___ ever could.|punishment
+
+#92
+T|The merchant sold silence for one coin an hour.|1
+T|The businessman could use his phone during the hour.|0
+M|What happened at the end of the hour?|He found a solution to a problem|He fell asleep|He got angry and left|He asked for his money back
+M|Who did the businessman bring later?|His employees|His children|A journalist|His wife
+I|In a world full of ___, silence may be the most valuable thing.|noise
+
+#93
+T|Lina thought she knew everything after one year.|1
+T|Lina's bowl held every drop of water.|0
+M|How did the master show the difference between the bowls?|He filled both with water|He broke them|He sold them|He painted them
+M|What did Lina hang above her workshop door?|A small mirror|A bowl|A painting of her master|A clock
+I|Look carefully before you say you're ___.|finished
+
+#94
+T|The strange customer was a blind man with a dog.|1
+T|Omar asked the blind man to pay double.|0
+M|Why did the blind man want a lantern?|So other people could see him in the dark|To read at night|To sell it|To help his dog see
+M|What did Omar do every night after that?|Left a lantern burning outside his shop|Closed his shop early|Walked in the dark|Sold lanterns at night only
+I|Light has value when it is ___.|shared
+
+#95
+T|The king gave the Fool a golden staff.|1
+T|The king had prepared well for his long journey.|0
+M|What journey was the king talking about?|His death|A trip to another kingdom|A war|A visit to the mountains
+M|What did the king do in his final days?|Gave away much of his wealth and made peace|Collected more treasure|Punished the Fool|Built a new palace
+I|Don't spend your whole life preparing for everything except what truly ___.|matters
+
+#96
+T|The stonecutter first became a rich merchant.|1
+T|The stonecutter was happy as the sun.|0
+M|What stopped the wind?|A giant mountain|A cloud|The sun|A prince
+M|Who was chipping away at the mountain?|A stonecutter|A prince|A merchant|The spirit
+I|___ blinds us to our own value.|Envy
+
+#97
+T|The old widow had only one apple left.|1
+T|The young mother ate the whole apple herself.|0
+M|What did the shepherd offer to share?|A sheep|Some bread|An apple|Some milk
+M|Why couldn't people go to the market?|The snow was too deep|The market was closed|They had no money|The road was broken
+I|Generosity spreads like ___.|warmth
+
+#98
+T|Marco was an interpreter at a business negotiation.|1
+T|Marco translated the phrase word for word without stopping.|0
+M|What did Marco do with the delicate phrase?|He paused and honestly explained the intention|He ignored it|He changed it secretly|He left the meeting
+M|What did the foreign delegate say?|Thank you for your honesty|You are fired|Translate it exactly|Stop the meeting
+I|A bridge between two languages is only valuable if it carries ___, not just words.|meaning
+
+#99
+T|The tightrope walker pushed a wheelbarrow across the rope.|1
+T|The man in the front row happily climbed into the wheelbarrow.|0
+M|Who finally sat in the wheelbarrow?|A small boy|The man in the front row|The boy's father|Nobody
+M|What is the difference between belief and trust?|Trust means putting yourself in the wheelbarrow|There is no difference|Belief is harder|Trust is only for children
+I|Real faith is not what we say, but what we are willing to ___.|risk
+
+#100
+T|Isolde was famous for the beauty of her maps.|1
+T|The explorer's map was drawn last year.|0
+M|Why did the explorer get lost?|The map showed a bridge and road that no longer existed|He could not read maps|The map was in another language|He went the wrong direction
+M|What were Isolde's new maps like?|Plainer, but true|More beautiful|Very expensive|Exactly the same
+I|Never mistake a beautiful, outdated picture for ___.|reality
+
+#101
+T|The courtier asked for one grain of rice on the first square.|1
+T|The king could easily give the full reward.|0
+M|What happened to the rice on each new square?|It doubled|It increased by one|It stayed the same|It halved
+M|What did the king do instead of giving the reward?|He made the courtier chief advisor|He punished the courtier|He gave him gold|He sent him away
+I|Small things that grow steadily can become unimaginably ___.|powerful
+
+#102
+T|The donkey fell into a deep, dry well.|1
+T|The farmer wanted to save the donkey.|0
+M|What did the donkey do each time earth fell on it?|Shook it off and stepped up|Cried louder|Lay down|Ate it
+M|What saved the donkey?|The earth that was meant to bury it|A rope|The neighbours pulled it out|Rain filled the well
+I|Every problem can become a stepping ___ if we refuse to be buried by it.|stone
+
+#103
+T|The lawyer's son was five years old.|1
+T|The lawyer earned about fifty dollars an hour.|0
+M|How much money did the boy have in his piggy bank?|One hundred and twenty dollars|Two hundred dollars|Eighty dollars|Ten dollars
+M|What did the boy want to buy?|One hour of his father's time|A new toy|A bicycle|A book
+I|Time spent with the people we ___ is the one investment we can never recover.|love
+
+#104
+T|The older monk carried the woman across the river.|1
+T|The younger monk forgot about it at once.|0
+M|What did the older monk ask the younger one?|Are you still carrying her?|Why are you so slow?|Did you see the river?|Do you want to go back?
+M|How did the younger monk feel at the end?|His step became lighter|He was still angry|He wanted to leave|He was afraid of the river
+I|Don't carry yesterday's moments into today. Let them ___.|go
+
+#105
+T|The boy cut the cocoon with scissors.|1
+T|The butterfly flew away happily.|0
+M|Why does the butterfly need to struggle through the opening?|It forces fluid into the wings|It cleans the wings|It makes it hungry|It helps it find food
+M|What did the boy do later as a father?|He let his children push through difficulties|He solved every problem for them|He bought them butterflies|He became a scientist
+I|Struggle is sometimes the very thing that gives us the strength to ___.|fly
+
+#106
+T|Tenzin did not get the teaching role.|1
+T|The master said Tenzin should feel nothing.|0
+M|Who fires the second arrow?|The person himself|An enemy|The master|Nobody
+M|What is the first arrow?|The event itself|Our thoughts about it|A real arrow|A bad dream
+I|Feel the first arrow honestly. But once the pain has been acknowledged, put your ___ down.|bow

@@ -1,0 +1,426 @@
+{
+ "seed-6.jpg": {
+  "i": "5c7b8add",
+  "c": "#1E4331"
+ },
+ "seed-5.jpg": {
+  "i": "f1e0d8c6",
+  "c": "#224433"
+ },
+ "seed-4.jpg": {
+  "i": "db239e88",
+  "c": "#2F5240"
+ },
+ "seed-3.jpg": {
+  "i": "b8e2fe70",
+  "c": "#264835"
+ },
+ "seed-2.jpg": {
+  "i": "9a4cfb8b",
+  "c": "#1A422E"
+ },
+ "seed-1.jpg": {
+  "i": "2b7ffab9",
+  "c": "#224636"
+ },
+ "seed-mini1-20.jpg": {
+  "i": "df4316ed",
+  "c": "#30533D"
+ },
+ "seed-mini1-19.jpg": {
+  "i": "b5a422a8",
+  "c": "#33553F"
+ },
+ "seed-mini1-18.jpg": {
+  "i": "81580bd8",
+  "c": "#234A34"
+ },
+ "seed-mini1-17.jpg": {
+  "i": "e2eb5f39",
+  "c": "#2F533D"
+ },
+ "seed-mini1-16.jpg": {
+  "i": "20ad54d4",
+  "c": "#385943"
+ },
+ "seed-mini1-15.jpg": {
+  "i": "c0e7713b",
+  "c": "#30533D"
+ },
+ "seed-mini1-14.jpg": {
+  "i": "587bdc57",
+  "c": "#32553E"
+ },
+ "seed-mini1-13.jpg": {
+  "i": "4156acee",
+  "c": "#33563F"
+ },
+ "seed-mini1-12.jpg": {
+  "i": "5e7f2378",
+  "c": "#365842"
+ },
+ "seed-mini1-11.jpg": {
+  "i": "a68a4317",
+  "c": "#32553F"
+ },
+ "seed-mini1-10.jpg": {
+  "i": "9e193c58",
+  "c": "#30533D"
+ },
+ "seed-mini1-9.jpg": {
+  "i": "369a503b",
+  "c": "#294E38"
+ },
+ "seed-mini1-8.jpg": {
+  "i": "1cb5b00c",
+  "c": "#274D37"
+ },
+ "seed-mini1-7.jpg": {
+  "i": "dd2f1d71",
+  "c": "#30533D"
+ },
+ "seed-mini1-6.jpg": {
+  "i": "7740ac1a",
+  "c": "#2D513B"
+ },
+ "seed-mini1-5.jpg": {
+  "i": "25c84382",
+  "c": "#32553F"
+ },
+ "seed-mini1-4.jpg": {
+  "i": "2e9c6a78",
+  "c": "#294E38"
+ },
+ "seed-mini1-3.jpg": {
+  "i": "59dc09e5",
+  "c": "#345740"
+ },
+ "seed-mini1-2.jpg": {
+  "i": "57fae0a6",
+  "c": "#2E523C"
+ },
+ "seed-mini1-1.jpg": {
+  "i": "276b1194",
+  "c": "#2C513B"
+ },
+ "seed-mini2-20.jpg": {
+  "i": "dd9392b3",
+  "c": "#2F533D"
+ },
+ "seed-mini2-19.jpg": {
+  "i": "1bf1eaa7",
+  "c": "#2F533C"
+ },
+ "seed-mini2-18.jpg": {
+  "i": "6071f26d",
+  "c": "#30533D"
+ },
+ "seed-mini2-17.jpg": {
+  "i": "996f85df",
+  "c": "#284D37"
+ },
+ "seed-mini2-16.jpg": {
+  "i": "231be277",
+  "c": "#32553F"
+ },
+ "seed-mini2-15.jpg": {
+  "i": "b91e3a15",
+  "c": "#33553F"
+ },
+ "seed-mini2-14.jpg": {
+  "i": "54fb3221",
+  "c": "#3A5B44"
+ },
+ "seed-mini2-13.jpg": {
+  "i": "d9bb950b",
+  "c": "#3F5E48"
+ },
+ "seed-mini2-12.jpg": {
+  "i": "79f773bb",
+  "c": "#375842"
+ },
+ "seed-mini2-11.jpg": {
+  "i": "9d6a8bd6",
+  "c": "#284D37"
+ },
+ "seed-mini2-10.jpg": {
+  "i": "6f9345f4",
+  "c": "#33553F"
+ },
+ "seed-mini2-9.jpg": {
+  "i": "ae904154",
+  "c": "#2F533C"
+ },
+ "seed-mini2-8.jpg": {
+  "i": "1a904020",
+  "c": "#345640"
+ },
+ "seed-mini2-7.jpg": {
+  "i": "01ca4c92",
+  "c": "#33553F"
+ },
+ "seed-mini2-6.jpg": {
+  "i": "39df9da6",
+  "c": "#2C503A"
+ },
+ "seed-mini2-5.jpg": {
+  "i": "49118602",
+  "c": "#2F533D"
+ },
+ "seed-mini2-4.jpg": {
+  "i": "c8cff77c",
+  "c": "#30533D"
+ },
+ "seed-mini2-3.jpg": {
+  "i": "b53398f5",
+  "c": "#355741"
+ },
+ "seed-mini2-2.jpg": {
+  "i": "3af8aa04",
+  "c": "#31543E"
+ },
+ "seed-mini2-1.jpg": {
+  "i": "a4c30673",
+  "c": "#2F523C"
+ },
+ "seed-mini3-20.jpg": {
+  "i": "08dff044",
+  "c": "#30533D"
+ },
+ "seed-mini3-19.jpg": {
+  "i": "237f908a",
+  "c": "#2A4F39"
+ },
+ "seed-mini3-18.jpg": {
+  "i": "7ea5069d",
+  "c": "#2F533D"
+ },
+ "seed-mini3-17.jpg": {
+  "i": "b3b772dc",
+  "c": "#3D5D46"
+ },
+ "seed-mini3-16.jpg": {
+  "i": "f67f5bdb",
+  "c": "#30533D"
+ },
+ "seed-mini3-15.jpg": {
+  "i": "e03b720c",
+  "c": "#355740"
+ },
+ "seed-mini3-14.jpg": {
+  "i": "a9d30297",
+  "c": "#32543E"
+ },
+ "seed-mini3-13.jpg": {
+  "i": "43c5e9ee",
+  "c": "#32553F"
+ },
+ "seed-mini3-12.jpg": {
+  "i": "2927509d",
+  "c": "#395A44"
+ },
+ "seed-mini3-11.jpg": {
+  "i": "b0e8f20b",
+  "c": "#2A4F38"
+ },
+ "seed-mini3-10.jpg": {
+  "i": "7cfd626b",
+  "c": "#2F533D"
+ },
+ "seed-mini3-9.jpg": {
+  "i": "43fa881b",
+  "c": "#335640"
+ },
+ "seed-mini3-8.jpg": {
+  "i": "30a016fc",
+  "c": "#3A5B45"
+ },
+ "seed-mini3-7.jpg": {
+  "i": "64206be8",
+  "c": "#2D513B"
+ },
+ "seed-mini3-6.jpg": {
+  "i": "bb7f50bd",
+  "c": "#2F523C"
+ },
+ "seed-mini3-5.jpg": {
+  "i": "8aecd37d",
+  "c": "#294E38"
+ },
+ "seed-mini3-4.jpg": {
+  "i": "fd900d12",
+  "c": "#2B4F39"
+ },
+ "seed-mini3-3.jpg": {
+  "i": "1e8e30ac",
+  "c": "#385943"
+ },
+ "seed-mini3-2.jpg": {
+  "i": "63fef00b",
+  "c": "#294E38"
+ },
+ "seed-mini3-1.jpg": {
+  "i": "73ebbcee",
+  "c": "#3B5B45"
+ },
+ "seed-mini4-20.jpg": {
+  "i": "0105fde0",
+  "c": "#2E523C"
+ },
+ "seed-mini4-19.jpg": {
+  "i": "756a1417",
+  "c": "#375942"
+ },
+ "seed-mini4-18.jpg": {
+  "i": "a6bacdf4",
+  "c": "#345740"
+ },
+ "seed-mini4-17.jpg": {
+  "i": "8a68facc",
+  "c": "#2C503A"
+ },
+ "seed-mini4-16.jpg": {
+  "i": "ad24086f",
+  "c": "#3A5B45"
+ },
+ "seed-mini4-15.jpg": {
+  "i": "69d0382c",
+  "c": "#345640"
+ },
+ "seed-mini4-14.jpg": {
+  "i": "fd48b5a1",
+  "c": "#294E38"
+ },
+ "seed-mini4-13.jpg": {
+  "i": "0b588428",
+  "c": "#33563F"
+ },
+ "seed-mini4-12.jpg": {
+  "i": "277cc88e",
+  "c": "#2D513B"
+ },
+ "seed-mini4-11.jpg": {
+  "i": "7b955989",
+  "c": "#32553E"
+ },
+ "seed-mini4-10.jpg": {
+  "i": "ce971c24",
+  "c": "#33563F"
+ },
+ "seed-mini4-9.jpg": {
+  "i": "8fa8a365",
+  "c": "#32553F"
+ },
+ "seed-mini4-8.jpg": {
+  "i": "0121fade",
+  "c": "#30543D"
+ },
+ "seed-mini4-7.jpg": {
+  "i": "8c5655e8",
+  "c": "#44634C"
+ },
+ "seed-mini4-6.jpg": {
+  "i": "976fffaa",
+  "c": "#355741"
+ },
+ "seed-mini4-5.jpg": {
+  "i": "2679b307",
+  "c": "#32553F"
+ },
+ "seed-mini4-4.jpg": {
+  "i": "9e565219",
+  "c": "#2D513B"
+ },
+ "seed-mini4-3.jpg": {
+  "i": "e7220e50",
+  "c": "#335640"
+ },
+ "seed-mini4-2.jpg": {
+  "i": "8e0e2dd4",
+  "c": "#385943"
+ },
+ "seed-mini4-1.jpg": {
+  "i": "f5cad721",
+  "c": "#395A43"
+ },
+ "seed-mini5-20.jpg": {
+  "i": "2b39d255",
+  "c": "#2B503A"
+ },
+ "seed-mini5-19.jpg": {
+  "i": "fde3885f",
+  "c": "#31543D"
+ },
+ "seed-mini5-18.jpg": {
+  "i": "ae9ca152",
+  "c": "#2C503A"
+ },
+ "seed-mini5-17.jpg": {
+  "i": "77293385",
+  "c": "#254B35"
+ },
+ "seed-mini5-16.jpg": {
+  "i": "ee093505",
+  "c": "#2D513B"
+ },
+ "seed-mini5-15.jpg": {
+  "i": "4c81f767",
+  "c": "#2D513B"
+ },
+ "seed-mini5-14.jpg": {
+  "i": "666dc325",
+  "c": "#2D513B"
+ },
+ "seed-mini5-13.jpg": {
+  "i": "69dc7831",
+  "c": "#274C36"
+ },
+ "seed-mini5-12.jpg": {
+  "i": "da43ec2d",
+  "c": "#345740"
+ },
+ "seed-mini5-11.jpg": {
+  "i": "e7fa08c4",
+  "c": "#2D513B"
+ },
+ "seed-mini5-10.jpg": {
+  "i": "e3009384",
+  "c": "#385943"
+ },
+ "seed-mini5-9.jpg": {
+  "i": "077bb596",
+  "c": "#33563F"
+ },
+ "seed-mini5-8.jpg": {
+  "i": "2816bd85",
+  "c": "#264C36"
+ },
+ "seed-mini5-7.jpg": {
+  "i": "8bb41d6c",
+  "c": "#3E5E47"
+ },
+ "seed-mini5-6.jpg": {
+  "i": "9d65e6dc",
+  "c": "#365842"
+ },
+ "seed-mini5-5.jpg": {
+  "i": "52827f4d",
+  "c": "#355741"
+ },
+ "seed-mini5-4.jpg": {
+  "i": "8daa19a8",
+  "c": "#30533D"
+ },
+ "seed-mini5-3.jpg": {
+  "i": "8fd1c575",
+  "c": "#284E38"
+ },
+ "seed-mini5-2.jpg": {
+  "i": "0f02c8c3",
+  "c": "#2F523C"
+ },
+ "seed-mini5-1.jpg": {
+  "i": "f80e656d",
+  "c": "#2D513B"
+ }
+}

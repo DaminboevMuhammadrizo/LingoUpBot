@@ -1,0 +1,42 @@
+# CI/CD: on every push to main — check the code and content, then log in to the server over SSH,
+# pull (or clone on the first run) and restart with pm2 (deploy/deploy.sh rolls back if unhealthy).
+# Repository secrets: SSH_HOST, SSH_USER, SSH_KEY (private key), SSH_PORT (optional),
+#                     REPO_URL (for the first clone). The app lives in /var/www/bot/lingoup on the server.
+name: Deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+concurrency: { group: deploy, cancel-in-progress: false }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Syntax
+        run: for f in server/*.js tools/*.mjs web/src/*.js; do node --check "$f"; done
+      - name: Content (questions, 10–15 per Flix, answers present in texts)
+        run: node tools/build.mjs --validate
+      - name: Built app is committed
+        run: test -f public/index.html && test -f public/sw.js && test -f public/data/index.json
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT || 22 }}
+          command_timeout: 5m
+          script: |
+            set -e
+            APP_DIR=/var/www/bot/lingoup
+            if [ ! -d "$APP_DIR/.git" ]; then
+              mkdir -p "$APP_DIR" || { echo "no write access to $APP_DIR: run deploy/setup-server.sh once, or: sudo mkdir -p $APP_DIR && sudo chown $USER $APP_DIR"; exit 1; }
+              git clone --depth 1 "${{ secrets.REPO_URL }}" "$APP_DIR"
+            fi
+            bash "$APP_DIR/deploy/deploy.sh"
