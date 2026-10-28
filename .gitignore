@@ -1,4 +1,5 @@
 node_modules/
 .env
-data/
-logs/
+# only the server runtime folders in the project root (not public/data!)
+/data/
+/logs/
